@@ -1,11 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Blog FrontEnd</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="assets/img/logos/adl.png" alt="Logo" class="header__logo-img">
+            <h1 class="header__title">Blog FrontEnd</h1>
+        </div>
+    </header>
+    <hr class="body__hr">
+    <main class="main">
+        <section class="novedades">
+            <h2 class="novedades__title">Novedades</h2>
+            <div class="novedades__content">
+                <div class="novedades__main-info">
+                    <div class="novedades__main">
+                        <img src="assets/img/posts/bootstrap.png" alt="Bootstrap" class="novedades__img">
+
+                    </div>
+                    <div class="novedades__info">
+                        <p class="novedades__date">24 Noviembre, 2022</p>
+                        <h3 class="novedades__headline">Modifica el tema de Bootstrap con variables CSS</h3>
+                        <div class="novedades__author">
+                            <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="novedades__author-img">
+                            <span>Desafío Latam</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="novedades__side">
+                    <div class="novedades__item">
+                        <img src="assets/img/posts/Herencia-JS.png" alt="JavaScript" class="novedades__item-img">
+                        <div class="novedades__text">
+                            <p class="novedades__date">24 Noviembre, 2022</p>
+                            <h4 class="novedades__subtitle">Herencia en JavaScript</h4>
+                            <div class="novedades__author">
+                                <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="novedades__author-img">
+                                <span>Desafío Latam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="novedades__item">
+                        <img src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="HTML" class="novedades__item-img">
+                        <div class="novedades__text">
+                            <p class="novedades__date">24 Noviembre, 2022</p>
+                            <h4 class="novedades__subtitle">Etiquetas semánticas</h4>
+                            <div class="novedades__author">
+                                <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="novedades__author-img">
+                                <span>Desafío Latam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="novedades__item">
+                        <img src="assets/img/posts/reactComponents.png" alt="CSS" class="novedades__item-img">
+                        <div class="novedades__text">
+                            <p class="novedades__date">24 Noviembre, 2022</p>
+                            <h4 class="novedades__subtitle">CSS Variables</h4>
+                            <div class="novedades__author">
+                                <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="novedades__author-img">
+                                <span>Desafío Latam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <hr class="body__hr">
+    <main class="main">
+        <section class="main-content">
+            <section class="populares">
+                <h2 class="populares__title">Populares</h2>
+                <div class="populares__content">
+                    <div class="populares__item">
+                        <img src="assets/img/posts/vue-components.png" alt="Bootstrap" class="populares__img">
+                        <p class="populares__date">24 Noviembre, 2022</p>
+                        <h3 class="populares__headline">Componentes Vue</h3>
+                        <div class="populares__author">
+                            <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="populares__author-img">
+                            <span>Desafío Latam</span>
+                        </div>
+                    </div>
+                    <div class="populares__item">
+                        <img src="assets/img/posts/api-js.png" alt="JavaScript" class="populares__img">
+                        <p class="populares__date">24 Noviembre, 2022</p>
+                        <h3 class="populares__headline">Consumo de API con JavaScript</h3>
+                        <div class="populares__author">
+                            <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="populares__author-img">
+                            <span>Desafío Latam</span>
+                        </div>
+                    </div>
+                    <div class="populares__item">
+                        <img src="assets/img/posts/sass.jpg" alt="HTML" class="populares__img">
+                        <p class="populares__date">24 Noviembre, 2022</p>
+                        <h3 class="populares__headline">CSS reutilizable con Sass</h3>
+                        <div class="populares__author">
+                            <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="populares__author-img">
+                            <span>Desafío Latam</span>
+                        </div>
+                    </div>
+                    <div class="populares__item">
+                        <img src="assets/img/posts/bootstrap.png" alt="CSS" class="populares__img">
+                        <p class="populares__date">24 Noviembre, 2022</p>
+                        <h3 class="populares__headline">Componentes Bootstrap</h3>
+                        <div class="populares__author">
+                            <img src="assets/img/logos/adl.png" alt="Desafio Latam" class="populares__author-img">
+                            <span>Desafío Latam</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="categorias">
+                <h2 class="categorias__title">Categorías</h2>
+                <ul class="categorias__list">
+                    <li class="categorias__item categorias__item--html">
+                        <img src="assets/img/logos/html.png" alt="HTML" class="categorias__item-img">
+                        HTML
+                    </li>
+                    <li class="categorias__item categorias__item--js">
+                        <img src="assets/img/logos/js.png" alt="JavaScript" class="categorias__item-img">
+                        JavaScript
+                    </li>
+                    <li class="categorias__item categorias__item--css">
+                        <img src="assets/img/logos/css.png" alt="CSS" class="categorias__item-img">
+                        CSS
+                    </li>
+                    <li class="categorias__item categorias__item--react">
+                        <img src="assets/img/logos/react.png" alt="React" class="categorias__item-img">
+                        React
+                    </li>
+                    <li class="categorias__item categorias__item--vue">
+                        <img src="assets/img/logos/vue.png" alt="Vue.js" class="categorias__item-img">
+                        Vue.js
+                    </li>
+                    <li class="categorias__item categorias__item--bootstrap">
+                        <img src="assets/img/logos/bootstrap-logo.png" alt="Bootstrap" class="categorias__item-img">
+                        Bootstrap
+                    </li>
+                </ul>
+                <a href="#" class="categorias__link">Ver todas las categorías</a>
+            </section>
+        </section>
+    </main>
+    <hr class="body__hr">
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__logo">
+                <img src="assets/img/logos/adl.png" alt="Logo" class="footer__logo-img">
+                <h1 class="footer__title">Blog FrontEnd</h1>
+                <h2 class="footer__subtitle">Desafio Latam - 2022</h2>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

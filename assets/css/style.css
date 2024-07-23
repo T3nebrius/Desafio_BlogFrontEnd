@@ -1,0 +1,319 @@
+/***BODY***/
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body__hr{
+    background-color: #CCCCCC;
+    height: 0.03rem;
+    width: 95%;
+}
+
+/***HEADER***/
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 7rem;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-img {
+    width: 55px;
+    height: 55px;
+    margin-right: 1rem;
+    border-radius: 0.8rem;
+}
+
+.header__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/***MAIN***/
+.main {
+    padding: 2rem 7rem;
+}
+
+/***NOVEDADES***/
+.novedades {
+    margin-bottom: 2rem;
+}
+
+.novedades__title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.novedades__content {
+    display: flex;
+    gap: 2rem;
+}
+
+.novedades__main-info {
+    flex: 1;
+}
+
+.novedades__main {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.novedades__img {
+    width: 603px;
+    height: 314px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.novedades__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.novedades__date {
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.novedades__headline {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.novedades__author {
+    display: flex;
+    align-items: center;
+}
+
+.novedades__author-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.novedades__side {
+    flex: 1;
+}
+
+.novedades__item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.novedades__item-img {
+    width: 188px;
+    height: 145px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.novedades__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.novedades__subtitle {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+/***POPULARES***/
+
+.populares {
+    margin-bottom: 2rem;
+    width: 600px;
+}
+
+.populares__title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    width: 600px;
+}
+
+.populares__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 300px;
+}
+
+.populares__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 300px;
+}
+
+.populares__img {
+    width: 298px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.populares__date {
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.populares__headline {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.populares__author {
+    display: flex;
+    align-items: center;
+}
+
+.populares__author-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+/***CATEGORIAS***/
+
+.categorias {
+    margin-bottom: 0;
+}
+
+.categorias__title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    
+}
+
+.categorias__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.categorias__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    width: 298px;
+    height: 89px;
+}
+
+.categorias__item--html {
+    background-color: #E93E30;
+}
+
+.categorias__item--js {
+    background-color: #F7E018;
+}
+
+.categorias__item--css {
+    background-color: #299ED5;
+}
+
+.categorias__item--react {
+    background-color: #292C33;
+}
+
+.categorias__item--vue {
+    background-color: #67C770;
+}
+
+.categorias__item--bootstrap {
+    background-color: #563D7C;
+}
+
+.categorias__item-img {
+    width: 85px;
+    height: 74px;
+}
+
+.categorias__link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.categorias__link:hover {
+    text-decoration: underline;
+}
+
+/***FOOTER***/
+
+.footer {
+    padding: 1rem 7rem;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__logo-img {
+    width: 55px;
+    height: 55px;
+    margin-right: 1rem;
+    border-radius: 0.8rem;
+}
+
+.footer__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: auto; 
+}
+
+.footer__subtitle {
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 0rem 7rem;
+}
+
+/***PARCHE SECTIONS***/
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.populares {
+    flex: 2;
+}
+
+.categorias {
+    flex: 1;
+}
